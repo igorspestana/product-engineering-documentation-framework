@@ -32,17 +32,18 @@
   - [5.6 Entidades no nível funcional](#56-entidades-no-nivel-funcional)
   - [5.7 Perfis e permissões](#57-perfis-e-permissoes)
   - [5.8 Critérios de aceitação](#58-criterios-de-aceitacao)
-- [6. Especificação Técnica (Tech Spec / TDD)](#6-especificacao-tecnica-tech-spec--tdd)
+- [6. Especificação Técnica (Tech Spec / Design Doc)](#6-especificacao-tecnica-tech-spec--design-doc)
   - [6.1 O que é](#61-o-que-e)
-  - [6.2 Para que serve](#62-para-que-serve)
-  - [6.3 Nível de escopo](#63-nivel-de-escopo)
-  - [6.4 Diferença entre Especificação de Funcionalidade (Feature Spec) e Especificação Técnica (Tech Spec)](#64-diferenca-entre-especificacao-de-funcionalidade-feature-spec-e-especificacao-tecnica-tech-spec)
-  - [6.5 Estrutura recomendada](#65-estrutura-recomendada)
-  - [6.6 Modelagem de dados](#66-modelagem-de-dados)
-  - [6.7 Contratos de API](#67-contratos-de-api)
-  - [6.8 Regras técnicas](#68-regras-tecnicas)
-  - [6.9 Impactos técnicos e migrações](#69-impactos-tecnicos-e-migracoes)
-  - [6.10 Riscos e compensações (trade-offs)](#610-riscos-e-compensacoes-trade-offs)
+  - [6.2 Nomenclatura (Tech Spec x Design Doc)](#62-nomenclatura-tech-spec-x-design-doc)
+  - [6.3 Para que serve](#63-para-que-serve)
+  - [6.4 Nível de escopo](#64-nivel-de-escopo)
+  - [6.5 Diferença entre Especificação de Funcionalidade (Feature Spec) e Especificação Técnica (Tech Spec)](#65-diferenca-entre-especificacao-de-funcionalidade-feature-spec-e-especificacao-tecnica-tech-spec)
+  - [6.6 Estrutura recomendada](#66-estrutura-recomendada)
+  - [6.7 Modelagem de dados](#67-modelagem-de-dados)
+  - [6.8 Contratos de API](#68-contratos-de-api)
+  - [6.9 Regras técnicas](#69-regras-tecnicas)
+  - [6.10 Impactos técnicos e migrações](#610-impactos-tecnicos-e-migracoes)
+  - [6.11 Riscos e compensações (trade-offs)](#611-riscos-e-compensacoes-trade-offs)
 - [7. Histórias de Usuário (User Stories)](#7-historias-de-usuario-user-stories)
   - [7.1 O que são](#71-o-que-sao)
   - [7.2 Papel dentro do fluxo de desenvolvimento](#72-papel-dentro-do-fluxo-de-desenvolvimento)
@@ -105,7 +106,7 @@ Este framework define **quais documentos** usar em Produto e Engenharia, **quand
 | Visão de Produto (Product Vision)                                        | Documento estratégico                      | Definir o produto como um todo            | Produto inteiro                               | Estratégia              | Qual problema resolvemos? / Para quem? / Qual posicionamento? / Quais objetivos estratégicos?                                        |
 | PRD (Product Requirements Document)                                      | Documento de requisitos                    | Definir o que a iniciativa deve fazer     | Iniciativa ou módulo relevante                | Produto / comportamento | O que a iniciativa/funcionalidade deve fazer (em alto nível)                                                                         |
 | Especificação de Funcionalidade (Feature Spec / Especificação Funcional) | Documento funcional                        | Detalhar completamente uma funcionalidade | Funcionalidade específica                     | Funcional detalhado     | Como a funcionalidade funciona (fluxos, regras, exceções)                                                                            |
-| Especificação Técnica (Tech Spec / TDD / Documento de Design Técnico)    | Documento técnico                          | Explicar como será implementado           | Funcionalidade específica (ou parte complexa) | Técnico                 | Como implementar (arquitetura, dados, contratos, compensações (trade-offs))                                                          |
+| Especificação Técnica (Tech Spec / Design Doc)    | Documento técnico                          | Explicar como será implementado           | Funcionalidade específica (ou parte complexa) | Técnico                 | Como implementar (arquitetura, dados, contratos, compensações (trade-offs))                                                          |
 
 
 No contexto ágil, normalmente é utilizado:
@@ -259,26 +260,32 @@ Critérios verificáveis que demonstrem que o comportamento esperado foi entregu
 
 ---
 
-## 6. Especificação Técnica (Tech Spec / TDD)
+## 6. Especificação Técnica (Tech Spec / Design Doc)
 
 ### 6.1 O que é
 
 Documento técnico que descreve como a funcionalidade será implementada.
 
-### 6.2 Para que serve
+### 6.2 Nomenclatura (Tech Spec x Design Doc)
+
+No mercado, **Tech Spec** e **Design Doc** são frequentemente usados como sinônimos.
+
+Neste framework, tratamos os termos como equivalentes: ambos representam o documento técnico de decisões e implementação.
+
+### 6.3 Para que serve
 
 Tomar decisões de arquitetura, reduzir risco técnico e alinhar engenharia antes de codar.
 
-### 6.3 Nível de escopo
+### 6.4 Nível de escopo
 
 Funcionalidade específica (ou parte complexa dela).
 
-### 6.4 Diferença entre Especificação de Funcionalidade (Feature Spec) e Especificação Técnica (Tech Spec)
+### 6.5 Diferença entre Especificação de Funcionalidade (Feature Spec) e Especificação Técnica (Tech Spec)
 
 - **Especificação de Funcionalidade (Feature Spec)**: “o que acontece” do ponto de vista funcional (comportamento).
 - **Especificação Técnica (Tech Spec)**: “como implementar” do ponto de vista técnico (arquitetura, dados, contratos, riscos).
 
-### 6.5 Estrutura recomendada
+### 6.6 Estrutura recomendada
 
 1. **Contexto Técnico**: situação atual da arquitetura.
 2. **Arquitetura da Solução**: componentes (back-end, front-end, banco, serviços externos) e diagramas.
@@ -289,23 +296,23 @@ Funcionalidade específica (ou parte complexa dela).
 7. **Estratégia de Testes**: unitários, integração, ponta a ponta (E2E).
 8. **Riscos e compensações (trade-offs)**: decisões tomadas e alternativas descartadas.
 
-### 6.6 Modelagem de dados
+### 6.7 Modelagem de dados
 
 Quando houver persistência relevante, documente mudanças e migrações (inclusive preenchimentos retroativos e restrições (constraints)) e como serão aplicadas com segurança.
 
-### 6.7 Contratos de API
+### 6.8 Contratos de API
 
 Documente contratos com nível suficiente para evitar divergência entre consumidores (corpos das mensagens/payloads, códigos, versionamento e compatibilidade).
 
-### 6.8 Regras técnicas
+### 6.9 Regras técnicas
 
 Centralize decisões de implementação que afetem consistência e operação (validações, filas/eventos, registros (logs) e observabilidade, idempotência, etc.).
 
-### 6.9 Impactos técnicos e migrações
+### 6.10 Impactos técnicos e migrações
 
 Liste impactos esperados e plano de execução quando houver risco (migrações, implantação gradual, compatibilidade, flags de funcionalidade).
 
-### 6.10 Riscos e compensações (trade-offs)
+### 6.11 Riscos e compensações (trade-offs)
 
 Registre compensações (trade-offs) reais (2+ abordagens), critérios da decisão e riscos assumidos para reduzir retrabalho.
 
@@ -485,7 +492,7 @@ Um documento é um artefato, mas nem todo artefato é um documento. O que difere
 - **SRS**: Software Requirements Specification
 - **PRD**: Product Requirements Document
 - **Especificação de Funcionalidade (Feature Spec)**: Especificação Funcional (Functional Specification)
-- **Especificação Técnica (Tech Spec / TDD)**: Documento de Design Técnico (Technical Design Document)
+- **Especificação Técnica (Tech Spec / Design Doc)**: Documento de Design Técnico (Technical Design Document)
 - **AC**: Acceptance Criteria
 
 ---
