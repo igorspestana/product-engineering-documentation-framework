@@ -40,3 +40,15 @@ Defina claramente perfis e suas ações permitidas, principalmente quando houver
 ### 5.8 Critérios de aceitação
 
 Critérios verificáveis que demonstrem que o comportamento esperado foi entregue (incluindo fluxos alternativos e erros importantes).
+
+### 5.9 Cabeçalho de metadados
+
+Inclua no topo do documento um bloco de metadados com:
+
+- **PM responsável**: quem escreve e mantém o documento.
+- **Designer responsável**: referência ao profissional de design envolvido.
+- **Status**: rascunho / revisão / aprovado.
+- **Última atualização**: data da versão corrente.
+- **PRD de referência**: link para o PRD que originou a funcionalidade (quando existir).
+- **Link para o Epic/histórias**: item na ferramenta de gestão de tarefas (Jira, Linear, ClickUp, etc.).
+- **Link para o design**: arquivo no Figma ou ferramenta equivalente.

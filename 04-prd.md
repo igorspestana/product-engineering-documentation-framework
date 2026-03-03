@@ -27,3 +27,14 @@ Iniciativa ou módulo relevante (acima de funcionalidade individual).
 6. **Requisitos Não Funcionais**: performance, segurança, escalabilidade, conformidade.
 7. **Métricas de Sucesso**: como medir se deu certo.
 8. **Dependências**: times envolvidos, integrações, limitações e riscos.
+
+### 4.6 Cabeçalho de metadados
+
+Inclua no topo do documento um bloco de metadados com:
+
+- **PM responsável**: quem escreve e mantém o documento.
+- **Status**: rascunho / revisão / aprovado.
+- **Última atualização**: data da versão corrente.
+- **Link para a iniciativa**: Epic ou item na ferramenta de gestão de tarefas (Jira, Linear, ClickUp, etc.).
+- **Stakeholders envolvidos**: times ou pessoas que precisam aprovar ou foram consultadas.
+- **Links relacionados**: design (Figma), referências externas, documentos anteriores.
