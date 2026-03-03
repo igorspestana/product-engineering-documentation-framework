@@ -6,7 +6,7 @@ Documento técnico que descreve como a funcionalidade será implementada.
 
 ### 6.2 Nomenclatura (Tech Spec x Design Doc)
 
-No mercado, **Tech Spec** e **Design Doc** são frequentemente usados como sinônimos.
+No mercado, **Tech Spec**, **Design Doc** ou **TDD** (Technical Design Document) são frequentemente usados como sinônimos.
 
 Neste framework, tratamos os termos como equivalentes: ambos representam o documento técnico de decisões e implementação.
 
