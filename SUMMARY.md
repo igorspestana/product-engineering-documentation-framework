@@ -67,3 +67,4 @@
   * [11.1 Definições de termos](11-glossario.md#111-definicoes-de-termos)
   * [11.2 Diferença entre documento e artefato](11-glossario.md#112-diferenca-entre-documento-e-artefato)
   * [11.3 Siglas (PRD, SRS, TDD, etc.)](11-glossario.md#113-siglas-prd-srs-tdd-etc)
+* [12. Referências Bibliográficas](12-referencias.md)
