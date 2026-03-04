@@ -1,6 +1,6 @@
 ---
 name: write-tech-spec
-description: Escreve uma especificação técnica (design doc) para implementar uma feature com arquitetura, dados, contratos, riscos, testes e plano de rollout. Use quando o usuário pedir planejamento técnico de implementação.
+description: Escreve uma especificação técnica para implementar uma feature com arquitetura, dados, contratos, riscos, testes e plano de rollout. Use quando o usuário pedir planejamento técnico de implementação.
 ---
 
 # Escrever Tech Spec
