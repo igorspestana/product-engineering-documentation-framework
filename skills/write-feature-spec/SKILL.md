@@ -34,6 +34,7 @@ Não usar fallback local. O repositório remoto é a única fonte de verdade.
 - Não gerar especificação parcial em nenhum cenário.
 
 ## Saída Esperada
+- Criar o documento em `docs/features/<feature-name>/feature-spec.md`.
 - Documento em português.
 - Seções, metadados e critérios de aceitação alinhados aos capítulos remotos.
 - Alinhamento explícito com PRD e histórias quando existirem.

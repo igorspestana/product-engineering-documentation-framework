@@ -32,6 +32,7 @@ Não usar fallback local. O repositório remoto é a única fonte de verdade.
 - Não gerar documento parcial em nenhum cenário.
 
 ## Saída Esperada
+- Criar o documento em `docs/features/<feature-name>/prd.md`.
 - Documento em português.
 - Seções e metadados alinhados ao capítulo remoto de PRD.
-- Referências explícitas para brief/discovery/épico quando existirem.
+- Referências explícitas para brief/discovery/epico quando existirem.

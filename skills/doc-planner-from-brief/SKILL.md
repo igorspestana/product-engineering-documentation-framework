@@ -9,8 +9,17 @@ description: Decide quais documentos de produto e engenharia são necessários a
 Decidir quais documentos criar usando exclusivamente as regras do framework remoto.
 
 ## Entradas
-- Obrigatório: `feature-brief.md`
-- Opcional: discovery doc
+- Obrigatório: feature brief, por uma das formas:
+  - Arquivo `feature-brief.md`
+  - Texto do brief escrito diretamente no chat
+- Opcional: discovery doc (arquivo ou texto no chat)
+
+### O que é o feature brief
+O feature brief é a descrição inicial da funcionalidade ou iniciativa, antes dos documentos formais (PRD, Feature Spec, Tech Spec). Deve conter o suficiente para avaliar impacto e complexidade. Conteúdo típico:
+- **Problema/oportunidade**: o que motiva a iniciativa
+- **Objetivo**: resultado esperado em alto nível
+- **Escopo resumido**: o que entra e o que fica de fora
+- **Contexto**: stakeholders, integrações, restrições relevantes
 
 ## Fonte do Framework
 Ler estes arquivos como fonte canônica:
@@ -40,7 +49,8 @@ Retornar:
 - `minimum_scope`: o que pode ser omitido para manter enxuto
 
 ## Notas de Execução
-- Se o usuário pedir geração dos documentos, criar em `docs/<feature-name>/`.
+- Se o brief vier no chat (sem arquivo), tratar o texto fornecido como conteúdo do feature brief.
+- Se o usuário pedir geração dos documentos, criar em `docs/features/<feature-name>/`.
 - Para gerar os documentos, usar explicitamente as skills:
   - `write-prd` para PRD.
   - `write-feature-spec` para Feature Spec.
