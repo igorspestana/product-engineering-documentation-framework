@@ -7,6 +7,7 @@ Histórias de usuário (user stories) são unidades pequenas de trabalho que des
 ### 7.2 Papel dentro do fluxo de desenvolvimento
 
 - Traduzem um comportamento em lista de trabalho executável (backlog).
+- Na hierarquia de backlog, ficam dentro de um Epic.
 - Facilitam planejamento, priorização e acompanhamento.
 - Funcionam melhor quando derivadas de uma Especificação de Funcionalidade (Feature Spec) (ou, em mudanças pequenas, diretamente do PRD/resumo).
 

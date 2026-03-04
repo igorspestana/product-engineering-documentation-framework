@@ -17,7 +17,5 @@ Um documento é um artefato, mas nem todo artefato é um documento. O que difere
 
 - **SRS**: Software Requirements Specification
 - **PRD**: Product Requirements Document
-- **Especificação de Funcionalidade (Feature Spec)**: Especificação Funcional (Functional Specification)
-- **Especificação Técnica (Tech Spec / Design Doc)**: Documento de Design Técnico (Technical Design Document)
 - **TDD**: Technical Design Document
 - **AC**: Acceptance Criteria

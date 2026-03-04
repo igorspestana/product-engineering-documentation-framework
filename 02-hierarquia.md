@@ -45,5 +45,18 @@ Especificação Técnica (Tech Spec)
 
 - **Produto** define intenção, escopo e sucesso (problema, objetivo, o que entra/não entra, métricas).
 - **Engenharia** define solução e execução segura (arquitetura, dados, contratos, riscos, testes, implantação).
-- Especificação de Funcionalidade (Feature Spec) e Especificação Técnica (Tech Spec) funcionam como “contratos” complementares: **comportamento** (o que acontece) e **implementação** (como fazer).
+- Especificação de Funcionalidade (Feature Spec) e Especificação Técnica (Tech Spec) funcionam como "contratos" complementares: **comportamento** (o que acontece) e **implementação** (como fazer).
 
+### 2.4 Backlog e rastreabilidade
+
+Os documentos do framework se conectam aos itens de backlog nas ferramentas de gestão (Jira, Linear, ClickUp, etc.).
+
+**Hierarquia típica em backlog:**
+
+- Iniciativa / Theme
+- **Epic** (ex.: "Login com SSO"): unidade grande de trabalho que agrupa várias user stories; representa iniciativa ou funcionalidade em ferramentas de gestão (Jira, Linear, ClickUp, etc.).
+- **User story** (ex.: "Como usuário, quero fazer login com Google"): unidade pequena de trabalho que descreve uma necessidade do usuário; normalmente vinculada a um epic e derivada de Feature Spec ou PRD.
+- **Task** (ex.: "Implementar endpoint OAuth"): tarefa técnica ou de execução dentro de uma user story; nível mais granular do backlog.
+
+- **PRD** costuma vincular-se ao Epic (ou item equivalente) da iniciativa.
+- **Feature Spec** e **Tech Spec** vinculam-se ao Epic e às user stories da funcionalidade.

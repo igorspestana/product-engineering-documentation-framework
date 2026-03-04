@@ -9,6 +9,7 @@
   * [2.1 Visão geral dos níveis](02-hierarquia.md#21-visao-geral-dos-niveis)
   * [2.2 Estratégia → Produto → Funcionalidade → Implementação](02-hierarquia.md#22-estrategia--produto--funcionalidade--implementacao)
   * [2.3 Relação entre Produto e Engenharia](02-hierarquia.md#23-relacao-entre-produto-e-engenharia)
+  * [2.4 Backlog e rastreabilidade](02-hierarquia.md#24-backlog-e-rastreabilidade)
 * [3. Visão de Produto (Product Vision)](03-visao-de-produto.md)
   * [3.1 O que é](03-visao-de-produto.md#31-o-que-e)
   * [3.2 Para que serve](03-visao-de-produto.md#32-para-que-serve)
