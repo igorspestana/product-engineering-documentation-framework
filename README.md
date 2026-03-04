@@ -24,7 +24,7 @@ O diretório [`skills/`](skills/) contém skills reutilizáveis que estendem age
 
 **Skills disponíveis:**
 - `doc-planner-from-brief`: decide quais documentos (PRD, feature spec, tech spec) são necessários a partir de feature brief e discovery
-- `write-prd`: cria PRD a partir de brief e discovery
+- `write-prd`: cria PRD a partir de feature brief e discovery
 - `write-feature-spec`: cria especificação funcional detalhada com comportamento, regras e critérios de aceitação
 - `write-tech-spec`: cria especificação técnica com arquitetura, dados, contratos e plano de rollout
 - `review-doc-consistency`: valida consistência, rastreabilidade e lacunas entre PRD, feature spec, tech spec e histórias

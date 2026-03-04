@@ -11,7 +11,7 @@ Decidir quais documentos criar usando exclusivamente as regras do framework remo
 ## Entradas
 - Obrigatório: feature brief, por uma das formas:
   - Arquivo `feature-brief.md`
-  - Texto do brief escrito diretamente no chat
+  - Texto do feature brief escrito diretamente no chat
 - Opcional: discovery doc (arquivo ou texto no chat)
 
 ### O que é o feature brief
@@ -49,7 +49,7 @@ Retornar:
 - `minimum_scope`: o que pode ser omitido para manter enxuto
 
 ## Notas de Execução
-- Se o brief vier no chat (sem arquivo), tratar o texto fornecido como conteúdo do feature brief.
+- Se o feature brief vier no chat (sem arquivo), tratar o texto fornecido como conteúdo do feature brief.
 - Se o usuário pedir geração dos documentos, criar em `docs/features/<feature-name>/`.
 - Para gerar os documentos, usar explicitamente as skills:
   - `write-prd` para PRD.

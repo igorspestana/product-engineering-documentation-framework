@@ -4,7 +4,7 @@ Este diretório contém skills reutilizáveis para fluxos de documentação de p
 
 ## Skills
 - `doc-planner-from-brief`: decide quais documentos são necessários.
-- `write-prd`: cria PRD a partir de brief e discovery.
+- `write-prd`: cria PRD a partir de feature brief e discovery.
 - `write-feature-spec`: cria especificação funcional detalhada.
 - `write-tech-spec`: cria especificação técnica/design.
 - `review-doc-consistency`: valida consistência entre documentos.
