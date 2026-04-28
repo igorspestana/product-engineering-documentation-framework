@@ -1,6 +1,6 @@
 ---
 name: write-prd
-description: Escreve um Product Requirements Document a partir de feature brief e discovery. Use quando o usuário pedir criação ou refinamento de PRD para iniciativa, módulo ou feature de alto impacto.
+description: Escreve um Product Requirements Document a partir de feature proposal e discovery. Use quando o usuário pedir criação ou refinamento de PRD para iniciativa, módulo ou feature de alto impacto.
 ---
 
 # Escrever PRD
@@ -9,7 +9,7 @@ description: Escreve um Product Requirements Document a partir de feature brief 
 Produzir PRD aplicando exclusivamente as diretrizes do framework remoto.
 
 ## Entradas Obrigatórias
-- Feature brief
+- Feature proposal
 - Discovery notes (se disponível)
 
 ## Fonte do Framework
@@ -35,4 +35,4 @@ Não usar fallback local. O repositório remoto é a única fonte de verdade.
 - Criar o documento em `docs/features/<feature-name>/prd.md`.
 - Documento em português.
 - Seções e metadados alinhados ao capítulo remoto de PRD.
-- Referências explícitas para brief/discovery/epico quando existirem.
+- Referências explícitas para proposal/discovery/epico quando existirem.

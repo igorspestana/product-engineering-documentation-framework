@@ -1,6 +1,6 @@
 ---
-name: doc-planner-from-brief
-description: Decide quais documentos de produto e engenharia são necessários a partir de feature brief e discovery doc opcional. Use quando o usuário pedir avaliação do que documentar antes da implementação ou planejamento de PRD, feature spec e tech spec.
+name: doc-planner-from-proposal
+description: Decide quais documentos de produto e engenharia são necessários a partir de feature proposal e discovery doc opcional. Use quando o usuário pedir avaliação do que documentar antes da implementação ou planejamento de PRD, feature spec e tech spec.
 ---
 
 # Planejador de Documentação
@@ -9,13 +9,13 @@ description: Decide quais documentos de produto e engenharia são necessários a
 Decidir quais documentos criar usando exclusivamente as regras do framework remoto.
 
 ## Entradas
-- Obrigatório: feature brief, por uma das formas:
-  - Arquivo `feature-brief.md`
-  - Texto do feature brief escrito diretamente no chat
+- Obrigatório: feature proposal, por uma das formas:
+  - Arquivo `feature-proposal.md`
+  - Texto do feature proposal escrito diretamente no chat
 - Opcional: discovery doc (arquivo ou texto no chat)
 
-### O que é o feature brief
-O feature brief é a descrição inicial da funcionalidade ou iniciativa, antes dos documentos formais (PRD, Feature Spec, Tech Spec). Deve conter o suficiente para avaliar impacto e complexidade. Conteúdo típico:
+### O que é o feature proposal
+O feature proposal é a proposta inicial da funcionalidade ou iniciativa, antes dos documentos formais (PRD, Feature Spec, Tech Spec). Deve conter o suficiente para avaliar impacto e complexidade. Conteúdo típico:
 - **Problema/oportunidade**: o que motiva a iniciativa
 - **Objetivo**: resultado esperado em alto nível
 - **Escopo resumido**: o que entra e o que fica de fora
@@ -49,7 +49,7 @@ Retornar:
 - `minimum_scope`: o que pode ser omitido para manter enxuto
 
 ## Notas de Execução
-- Se o feature brief vier no chat (sem arquivo), tratar o texto fornecido como conteúdo do feature brief.
+- Se o feature proposal vier no chat (sem arquivo), tratar o texto fornecido como conteúdo do feature proposal.
 - Se o usuário pedir geração dos documentos, criar em `docs/features/<feature-name>/`.
 - Para gerar os documentos, usar explicitamente as skills:
   - `write-prd` para PRD.

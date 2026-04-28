@@ -9,7 +9,7 @@ description: Escreve uma especificação técnica para implementar uma feature c
 Gerar tech spec aplicando exclusivamente as diretrizes do framework remoto.
 
 ## Entradas Obrigatórias
-- Feature brief
+- Feature proposal
 - Feature spec (preferencial)
 - Contexto de arquitetura existente
 

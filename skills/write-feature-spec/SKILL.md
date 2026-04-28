@@ -1,6 +1,6 @@
 ---
 name: write-feature-spec
-description: Escreve especificação funcional detalhada com comportamento, regras, estados, permissões e critérios de aceitação. Use quando o usuário pedir criação de feature spec a partir de brief, PRD ou discovery.
+description: Escreve especificação funcional detalhada com comportamento, regras, estados, permissões e critérios de aceitação. Use quando o usuário pedir criação de feature spec a partir de proposal, PRD ou discovery.
 ---
 
 # Escrever Feature Spec
@@ -9,7 +9,7 @@ description: Escreve especificação funcional detalhada com comportamento, regr
 Gerar feature spec aplicando exclusivamente as diretrizes do framework remoto.
 
 ## Entradas Obrigatórias
-- Feature brief
+- Feature proposal
 - PRD (quando disponível)
 - Discovery notes (opcional)
 
