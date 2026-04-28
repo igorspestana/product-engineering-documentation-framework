@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write PRD"
+  short_description: "Cria Product Requirements Document a partir de feature proposal e discovery."
+  default_prompt: "Leia os capítulos remotos do framework, gere o PRD completo em português em docs/features/<feature-name>/prd.md alinhado ao proposal, discovery e às boas práticas do repositório."

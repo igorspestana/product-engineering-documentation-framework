@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Doc Consistency"
+  short_description: "Valida consistência entre PRD, feature spec, tech spec e histórias antes da implementação."
+  default_prompt: "Leia os capítulos remotos do framework, revise os documentos fornecidos e retorne findings, missing_items, consistency_score e recommended_actions."

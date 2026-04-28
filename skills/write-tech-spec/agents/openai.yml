@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Tech Spec"
+  short_description: "Cria especificação técnica com arquitetura, dados, contratos, riscos e plano de rollout."
+  default_prompt: "Leia os capítulos remotos do framework, gere a tech spec em português em docs/features/<feature-name>/tech-spec.md com base no proposal, feature spec e contexto de arquitetura existente."

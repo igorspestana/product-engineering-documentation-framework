@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Feature Spec"
+  short_description: "Cria especificação funcional detalhada com comportamento, regras e critérios de aceitação."
+  default_prompt: "Leia os capítulos remotos do framework, gere a feature spec em português em docs/features/<feature-name>/feature-spec.md com base no proposal, PRD e discovery, incluindo histórias quando aplicável."

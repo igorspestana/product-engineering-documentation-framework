@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doc Planner from Proposal"
+  short_description: "Define quais documentos criar a partir de um feature proposal e discovery opcional."
+  default_prompt: "Analise o feature proposal (e o discovery, se houver), aplique o framework remoto e retorne required_documents, justification, creation_order e minimum_scope."
